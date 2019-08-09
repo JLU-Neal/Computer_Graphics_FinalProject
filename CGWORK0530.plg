@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CGWORK0530 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\neals\AppData\Local\Temp\RSPF583.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/CGWORK0530.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\shinodax\ѧϰ\ͼ��ѧ\CGWORK0530\Polygon.cpp"
+]
+Creating command line "cl.exe @C:\Users\neals\AppData\Local\Temp\RSPF583.tmp" 
+Creating temporary file "C:\Users\neals\AppData\Local\Temp\RSPF584.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/CGWORK0530.pdb" /debug /machine:I386 /out:"Debug/CGWORK0530.exe" /pdbtype:sept 
+".\Debug\CGWORK0530.obj"
+".\Debug\CGWORK0530Doc.obj"
+".\Debug\CGWORK0530View.obj"
+".\Debug\Ellipse.obj"
+".\Debug\Line.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MapElement.obj"
+".\Debug\MapList.obj"
+".\Debug\PolyBezier.obj"
+".\Debug\Polygon.obj"
+".\Debug\SetStyleDlg.obj"
+".\Debug\SetStyleDlg2.obj"
+".\Debug\SetStyleDlg3.obj"
+".\Debug\StdAfx.obj"
+".\Debug\CGWORK0530.res"
+]
+Creating command line "link.exe @C:\Users\neals\AppData\Local\Temp\RSPF584.tmp"
+<h3>Output Window</h3>
+Compiling...
+Polygon.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+CGWORK0530.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
