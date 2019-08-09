@@ -1,0 +1,131 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CGWORK0530 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\neals\AppData\Local\Temp\RSPF12A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/CGWORK0530.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530Doc.cpp"
+"F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp"
+]
+Creating command line "cl.exe @C:\Users\neals\AppData\Local\Temp\RSPF12A.tmp" 
+Creating temporary file "C:\Users\neals\AppData\Local\Temp\RSPF12B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/CGWORK0530.pdb" /debug /machine:I386 /out:"Debug/CGWORK0530.exe" /pdbtype:sept 
+".\Debug\CGWORK0530.obj"
+".\Debug\CGWORK0530Doc.obj"
+".\Debug\CGWORK0530View.obj"
+".\Debug\Ellipse.obj"
+".\Debug\Line.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MapElement.obj"
+".\Debug\MapList.obj"
+".\Debug\PolyBezier.obj"
+".\Debug\Polygon.obj"
+".\Debug\SetStyleDlg.obj"
+".\Debug\SetStyleDlg2.obj"
+".\Debug\SetStyleDlg3.obj"
+".\Debug\StdAfx.obj"
+".\Debug\CGWORK0530.res"
+]
+Creating command line "link.exe @C:\Users\neals\AppData\Local\Temp\RSPF12B.tmp"
+<h3>Output Window</h3>
+Compiling...
+CGWORK0530Doc.cpp
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530Doc.cpp(30) : error C2653: 'CCGWORK0530Doc' : is not a class or namespace name
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530Doc.cpp(34) : warning C4508: 'CCGWORK0530Doc' : function should return a value; 'void' return type assumed
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530Doc.cpp(36) : error C2653: 'CCGWORK0530Doc' : is not a class or namespace name
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530Doc.cpp(37) : error C2084: function 'int __cdecl CCGWORK0530Doc(void)' already has a body
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530Doc.cpp(40) : error C2653: 'CCGWORK0530Doc' : is not a class or namespace name
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530Doc.cpp(42) : error C2352: 'CDocument::OnNewDocument' : illegal call of non-static member function
+        f:\microsoft visual studio\vc98\mfc\include\afxwin.h(4488) : see declaration of 'OnNewDocument'
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530Doc.cpp(56) : error C2653: 'CCGWORK0530Doc' : is not a class or namespace name
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530Doc.cpp(72) : error C2653: 'CCGWORK0530Doc' : is not a class or namespace name
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530Doc.cpp(73) : error C2270: 'AssertValid' : modifiers not allowed on nonmember functions
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530Doc.cpp(74) : error C2352: 'CDocument::AssertValid' : illegal call of non-static member function
+        f:\microsoft visual studio\vc98\mfc\include\afxwin.h(4518) : see declaration of 'AssertValid'
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530Doc.cpp(77) : error C2653: 'CCGWORK0530Doc' : is not a class or namespace name
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530Doc.cpp(78) : error C2270: 'Dump' : modifiers not allowed on nonmember functions
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530Doc.cpp(79) : error C2352: 'CDocument::Dump' : illegal call of non-static member function
+        f:\microsoft visual studio\vc98\mfc\include\afxwin.h(4517) : see declaration of 'Dump'
+CGWORK0530View.cpp
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(63) : error C2039: 'CCGWORK0530View' : is not a member of 'CCGWORK0521View'
+        f:\shinodax\学习\图形学\cgwork0521\cgwork0521\cgwork0530view.h(15) : see declaration of 'CCGWORK0521View'
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(66) : error C2065: 'm_DrawType' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(67) : error C2065: 'm_isDraw' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(68) : error C2065: 'm_LButtonDown' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(70) : error C2065: 'm_LineColor' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(71) : error C2065: 'm_FillStyle' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(72) : error C2065: 'm_FillForeColor' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(73) : error C2065: 'm_FillBackColor' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(75) : error C2065: 'm_CubeMenuState' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(76) : error C2065: 'm_TransMount' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(76) : error C2440: '=' : cannot convert from 'int *' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(77) : error C2065: 'm_RotMount' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(77) : error C2440: '=' : cannot convert from 'int *' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(78) : error C2065: 'RotPace' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(79) : error C2065: 'TransPace' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(80) : error C2065: 'm_CubePoint' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(80) : error C2440: '=' : cannot convert from 'double ** ' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(83) : error C2109: subscript requires array or pointer type
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(83) : error C2440: '=' : cannot convert from 'double *' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(84) : error C2065: 'm_CubeType' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(85) : warning C4508: 'CCGWORK0530View' : function should return a value; 'void' return type assumed
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(87) : error C2523: 'CCGWORK0521View::~CCGWORK0530View' : destructor tag mismatch
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(157) : error C2653: 'CCGWORK0530View' : is not a class or namespace name
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(159) : error C2065: 'm_pDocument' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(159) : error C2227: left of '->IsKindOf' must point to class/struct/union
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(159) : error C2653: 'CCGWORK0530Doc' : is not a class or namespace name
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(159) : error C2065: 'classCCGWORK0530Doc' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(160) : error C2065: 'CCGWORK0530Doc' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(160) : error C2059: syntax error : ')'
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(161) : warning C4035: 'GetDocument' : no return value
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(470) : error C2065: 'pDoc' : undeclared identifier
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(470) : error C2440: '=' : cannot convert from 'class CCGWORK0521Doc *' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(484) : error C2227: left of '->m_MapList' must point to class/struct/union
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(484) : error C2228: left of '.Add' must have class/struct/union type
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(519) : error C2227: left of '->m_MapList' must point to class/struct/union
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(519) : error C2228: left of '.Add' must have class/struct/union type
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(520) : error C2227: left of '->m_MapList' must point to class/struct/union
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(520) : error C2228: left of '.Add' must have class/struct/union type
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(521) : error C2227: left of '->m_MapList' must point to class/struct/union
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(521) : error C2228: left of '.Add' must have class/struct/union type
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(522) : error C2227: left of '->m_MapList' must point to class/struct/union
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(522) : error C2228: left of '.Add' must have class/struct/union type
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(536) : error C2227: left of '->m_MapList' must point to class/struct/union
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(536) : error C2228: left of '.Add' must have class/struct/union type
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(574) : error C2440: '=' : cannot convert from 'class CCGWORK0521Doc *' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(591) : error C2227: left of '->m_MapList' must point to class/struct/union
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(591) : error C2228: left of '.Add' must have class/struct/union type
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(603) : error C2440: '=' : cannot convert from 'class CCGWORK0521Doc *' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(625) : error C2227: left of '->m_MapList' must point to class/struct/union
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(625) : error C2228: left of '.Add' must have class/struct/union type
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(638) : error C2227: left of '->m_MapList' must point to class/struct/union
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(638) : error C2228: left of '.Add' must have class/struct/union type
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(650) : error C2440: '=' : cannot convert from 'class CCGWORK0521Doc *' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(658) : error C2227: left of '->m_MapList' must point to class/struct/union
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(658) : error C2228: left of '.Add' must have class/struct/union type
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(675) : error C2227: left of '->m_MapList' must point to class/struct/union
+F:\shinodax\学习\图形学\CGWORK0521\CGWORK0521\CGWORK0530View.cpp(675) : error C2228: left of '.Add' must have class/struct/union type
+Generating Code...
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+CGWORK0530.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
